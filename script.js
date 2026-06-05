@@ -18,7 +18,7 @@ hoverBtn.addEventListener('mouseout', function (){
     hoverBtn.style.backgroundColor = ""
     console.log("mouse away from the button")
 })
-//change 1
+
 
 
 const countBtn = document.querySelector("#countButton")
