@@ -9,6 +9,8 @@ colorBtn.addEventListener('click', function () {
     console.log("color button clicked")
 })
 
+//revert testing 1
+
 hoverBtn.addEventListener('mouseover', function (){
     hoverBtn.style.backgroundColor = "green"
     console.log("hovered over the button")
