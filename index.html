@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Biplop Giri — Resume</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="navbar container" aria-label="Main navigation">
+				<a href="#hero" class="logo">Biplop Giri</a>
+				<ul class="nav-links">
+					<li><a href="#summary">Summary</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<button id = "countButton">Count</button>
+			<p id = "clicks">Number of clicks : 0 </p>
+
+			<button id = "colorButton">Click To change color</button>
+			<button id = "hoverButton">Hover Me</button>
+
+			
+			<section id="hero" class="hero">
+				<div class="hero-content container">
+					<p class="hero-greeting">Hello — I'm</p>
+					<h1>Biplop Giri</h1>
+					<p class="hero-tagline">
+						Electronics & Communication engineer focused on embedded systems,
+						IoT, full-stack development and AI integration.
+					</p>
+					<div style="display:flex;gap:12px;align-items:center;margin-top:10px;">
+						<a class="btn" href="#contact">Get in touch</a>
+						<a class="btn" href="#projects">See projects</a>
+					</div>
+					<p style="margin-top:12px;color:#475569;">Kalanki, Kathmandu • <a href="mailto:biplav120@gmail.com">biplav120@gmail.com</a> • <a href="https://github.com/B33pl0p">GitHub</a> • <a href="https://www.linkedin.com/in/biplopgiri/">LinkedIn</a></p>
+				</div>
+			</section>
+
+			<section id="summary" class="section container">
+				<h2>Summary</h2>
+				<p>
+					Electronics and Communication Engineering graduate with hands-on
+					experience in embedded systems, IoT, drone technology, and
+					sensor-based hardware projects. Skilled in full stack development
+					and AI integration, focusing on building real-world systems that
+					bridge hardware and software.
+				</p>
+			</section>
+
+			<section id="experience" class="section container">
+				<h2>Experience</h2>
+
+				<div class="resume-list">
+					<article class="resume-item">
+						<header>
+							<h3>Ganesha Computing Pvt. Ltd.</h3>
+							<div class="meta">Full Stack Developer — May 2025 – Oct 2025 • Kathmandu, Nepal</div>
+						</header>
+						<ul>
+							<li>Deployed and managed backend APIs on Linux servers using CI/CD.</li>
+							<li>Configured NGINX as reverse proxy and managed Ubuntu services.</li>
+							<li>Built real-time chat systems and dashboards backed by scalable backends.</li>
+						</ul>
+					</article>
+
+					<article class="resume-item">
+						<header>
+							<h3>Lakhey Labs</h3>
+							<div class="meta">Co-Founder & Technical Operations Lead — 2025 – Present</div>
+						</header>
+						<ul>
+							<li>Managed server-side infrastructure and automated operational workflows.</li>
+							<li>Oversaw technical workflows for a 3D printing business.</li>
+						</ul>
+					</article>
+
+					<article class="resume-item">
+						<header>
+							<h3>F1Soft International Pvt. Ltd.</h3>
+							<div class="meta">Student Fellow — Jul 2024 – Jan 2025</div>
+						</header>
+						<ul>
+							<li>Developed and deployed a reverse image search system using CLIP embeddings.</li>
+							<li>Worked on multimodal retrieval pipelines in production.</li>
+						</ul>
+					</article>
+
+					<article class="resume-item">
+						<header>
+							<h3>Advanced College of Engineering and Management</h3>
+							<div class="meta">Research Assistant — 2025 – Present</div>
+						</header>
+						<ul>
+							<li>Worked on applied AI and electronics research projects.</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="projects" class="section container">
+				<h2>Projects</h2>
+				<div class="projects-grid">
+					<article class="project-card">
+						<h3>AI based Ecommerce With Multimodal Product Search</h3>
+						<p>Built a reverse image search using CLIP embeddings, semantic search with Nepali language support.</p>
+					</article>
+
+					<article class="project-card">
+						<h3>ACEM Chatbot System — Rasa</h3>
+						<p>Deployed a Rasa NLP chatbot with a custom action server and Docker orchestration.</p>
+					</article>
+
+					<article class="project-card">
+						<h3>Smart Bus Fare Collection</h3>
+						<p>IoT system using RFID, GPS, ESP32, Firebase and GSM for real-time fare calculations and alerts.</p>
+					</article>
+
+					<article class="project-card">
+						<h3>Gesture & Voice-Controlled Car</h3>
+						<p>Designed gesture-controlled car with MPU6050, ultrasonic obstacle detection and voice integration.</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="skills" class="section container">
+				<h2>Skills</h2>
+				<div class="skills-grid">
+					<div>
+						<strong>Electronics & Hardware</strong>
+						<p>Embedded Systems, Arduino, ESP32, Sensors, IoT, Drone Systems, RF</p>
+					</div>
+					<div>
+						<strong>Systems & DevOps</strong>
+						<p>Linux, Bash, NGINX, Docker, CI/CD, AWS</p>
+					</div>
+					<div>
+						<strong>Languages & Frameworks</strong>
+						<p>Python, C/C++, JavaScript, TypeScript, FastAPI, Node.js</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="certs" class="section container">
+				<h2>Certifications & Volunteering</h2>
+				<ul>
+					<li>Drone Training Program — Far East University (Aug–Sep 2025)</li>
+					<li>Paper Presentation — IJCC 2026 (Multimodal Product Search using CLIP)</li>
+					<li>Arduino & Embedded Systems Workshop — Instructor (2024)</li>
+				</ul>
+			</section>
+
+			<section id="contact" class="section container">
+				<h2>Contact</h2>
+				<p>Reach out via email or GitHub:</p>
+				<p>
+					<a href="mailto:biplav120@gmail.com">biplav120@gmail.com</a> •
+					<a href="tel:+9779816027088">+977 9816027088</a> •
+					<a href="https://github.com/B33pl0p">github.com/B33pl0p</a>
+				</p>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>&copy; 2026 Biplop Giri. All rights reserved.</p>
+		</footer>
+		<script src = "script.js"></script>
+	</body>
+</html>
